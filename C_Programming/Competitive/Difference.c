@@ -1,73 +1,42 @@
 /*
-
-Accept N numbers from user and return the difference between largest and smallest number 
-
-Input  : N        : 6
-         Elements : 85 66 3 66 93 88
-Output : 90 (93 - 3)
-
+Write a program which accept string from user and return difference between 
+frequency of small characters and frequency of capital characters.
 */
 
 #include<stdio.h>
-#include<stdlib.h>
 
-int Minimum(int Arr[], int iLength)
+int Difference(char *str)
 {
-    int iCnt = 0;
-    int iMax = 0;
-    int iMin = Arr[0];
-    int iDiff = 0;
+    int iSmallCount = 0;   
+    int iCapitalCount = 0; 
 
-    for(iCnt = 0; iCnt < iLength; iCnt++)
+    while(*str != '\0')
     {
-        if(Arr[iCnt] < iMin)
+        if(*str >= 'A' && *str <= 'Z')
         {
-            iMin = Arr[iCnt];
+            iCapitalCount++;
         }
-    }
-   
-    for(iCnt = 0; iCnt < iLength; iCnt++)
-    {
-        if(Arr[iCnt] > iMax)
+        else if((*str >= 'a') && (*str <= 'z'))
         {
-            iMax = Arr[iCnt];
+            iSmallCount++;
         }
+        str++;
     }
 
-    iDiff = iMax - iMin;
-    return iDiff;
-    
-
+    return(iSmallCount - iCapitalCount);
 }
 
 int main()
 {
-    int iSize = 0, iRet = 0, iCnt = 0, iValue = 0;
-    int *p = NULL;
-    
-    printf("Enter number of elements : ");
-    scanf("%d",&iSize);
+    char arr[20];
+    int iRet = 0;
 
-    p = (int *)malloc(iSize * sizeof(int));
+    printf("Enter the String : ");
+    scanf("%[^`\n`]s",arr);
 
-    if(p == NULL)
-    {
-        printf("Unable to allocate memory");
-        return -1;
-    }
+    iRet = Difference(arr);
 
-    printf("Enter %d elements \n",iSize);
-
-    for(iCnt = 0; iCnt < iSize; iCnt++)
-    {
-        printf("Enter element %d : ",iCnt+1);
-        scanf("%d",&p[iCnt]);
-    }
-
-    iRet = Minimum(p,iSize);
     printf("Difference is : %d",iRet);
-
-    free(p);
 
     return 0;
 }
