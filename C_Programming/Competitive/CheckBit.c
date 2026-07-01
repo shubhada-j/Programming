@@ -1,6 +1,6 @@
-//Write a program which accept one number and position from user and check whether bit at that position is ON or OFF. If bit is ON return TRUE otherwise FALSE.
+//Write a program which accept one number, two positions from user and check whether bit at first or bit at second position is ON or OFF
 
-#include<stdio.h>
+#include <stdio.h>
 
 typedef unsigned int UINT;
 typedef int BOOL;
@@ -8,22 +8,27 @@ typedef int BOOL;
 #define TRUE 1
 #define FALSE 0
 
-BOOL ChkBit(UINT iNo,UINT iPos)
+BOOL ChkBit(UINT iNo, UINT iPos1, UINT iPos2)
 {
-    UINT iMask = 0x1;
-    UINT iResult = 0;       
+    UINT iMask1 = 0;
+    UINT iMask2 = 0;
+    UINT iMask = 0;
+    UINT iResult = 0;
 
-    if(iPos < 1 || iPos > 32)
+    if((iPos1 < 1 || iPos1 > 32) || (iPos2 < 1 || iPos2 > 32))
     {
-        printf("Invalid Bit Position\n");
-        return iNo;
+        printf("Invalid Position\n");
+        return FALSE;
     }
 
-    iMask = iMask <<(iPos - 1);
+    iMask1 = 1 << (iPos1 - 1);
+    iMask2 = 1 << (iPos2 - 1);
+
+    iMask = iMask1 | iMask2;
 
     iResult = iNo & iMask;
 
-    if(iResult == iMask)
+    if(iResult != 0)
     {
         return TRUE;
     }
@@ -31,33 +36,33 @@ BOOL ChkBit(UINT iNo,UINT iPos)
     {
         return FALSE;
     }
-
 }
+
 int main()
 {
     UINT iValue = 0;
-    BOOL BRet = 0;
-    UINT iLocation = 0x1;
+    UINT iPos1 = 0, iPos2 = 0;
+    BOOL bRet = FALSE;
 
-    printf("Enter Number : \n");
-    scanf("%d",&iValue);
+    printf("Enter number : ");
+    scanf("%d", &iValue);
 
-    printf("Enter the position : \n");
-    scanf("%d",&iLocation);
+    printf("Enter first position : ");
+    scanf("%d", &iPos1);
 
-    BRet = ChkBit(iValue,iLocation);
-    
-    if(BRet == TRUE)
+    printf("Enter second position : ");
+    scanf("%d", &iPos2);
+
+    bRet = ChkBit(iValue, iPos1, iPos2);
+
+    if(bRet == TRUE)
     {
-        printf("Bit is ON\n");
+        printf("At least one of the bits is ON\n");
     }
     else
     {
-        printf("Bit is OFF\n");
+        printf("Both bits are OFF\n");
     }
-    
+
     return 0;
 }
-
-
-
