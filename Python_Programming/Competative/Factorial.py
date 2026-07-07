@@ -1,16 +1,16 @@
-# Write a program which accepts one number and prints factorial of that number
+# Write a program which accept one number from user and return its Factorial
 
-def Factorial(Value):
-    Ans = 0
-    for i in range(1,Value+1):
-        Ans = Ans + i
-    return Ans
+def Factorial(No):
+    Fact = 1
+    for i in range(1,No+1):
+        Fact = Fact * i
+    return Fact
 
 def main():
-    No = int(input("Enter number : "))
+    Value = int(input("Enter the number : "))
+    
+    Ret = Factorial(Value)
+    print("Factorial is : ",Ret)
 
-    Ret = Factorial(No)
-    print("Factorial of",No,"is : ",Ret)
-
-if __name__ ==  "__main__":
+if __name__ == "__main__":
     main()

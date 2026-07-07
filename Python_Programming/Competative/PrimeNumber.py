@@ -1,22 +1,19 @@
-# Write a program which accepts one number and checks whether it is prime or not
+# Write a program which accept one number from user and check whether number is prime or not
 
-def PrimeNumber(Value):
-    for i in range(2,Value+1):
-        if(Value % i != 0):
-            return True
-        else:
+def PrimeNumber(No):
+    for i in range(2,No):
+        if(No % i == 0):
             return False
-            
+    return True
+        
 def main():
-    No = int(input("Enter number : "))
+    Value = int(input("Enter number : "))
 
-    Ret = PrimeNumber(No)
-
+    Ret = PrimeNumber(Value)
     if(Ret == True):
-        print(No,"is Prime Number")
+        print("It is Prime")
     else:
-        print(No,"is not Prime Number")
+        print("It is not Prime")
 
-
-if __name__ ==  "__main__":
+if __name__ == "__main__":
     main()
