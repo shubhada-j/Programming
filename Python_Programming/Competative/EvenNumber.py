@@ -1,14 +1,12 @@
-# Write a program which accepts one number and prints all even numbers till that number
+# Write a program which display first 10 even numbers on screen
 
-def EvenNumber(Value):
-    for i in range(1,Value+1):
-        if(i % 2 == 0):
-            print(i)
+def Display():
+    for no in range(2,21,2):
+        if(no % 2 == 0):
+            print(no)
 
 def main():
-    No = int(input("Enter number : "))
-
-    EvenNumber(No)
-
-if __name__ ==  "__main__":
+    Display()
+    
+if __name__ == "__main__":
     main()
