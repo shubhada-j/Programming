@@ -1,20 +1,23 @@
-import Arithmetic
+"""
+Write a program which accept N numbers from user and store it into List. Return addition of all prime numbers from that List. Main python file accepts N numbers from user and pass each number to ChkPrime() function which is part of our user defined module named as MarvellousNum. Name of the function from main python file should be ListPrime().
+Input: Number of elements: 11
+Input Elements: 13 5 45 7 4 56 10 34 2 5 8
+Output: 54 (13+5+7+2+5)
+"""
+
+import MarvellousNum
 
 def main():
-    Value1 = int(input("Enter first number : "))
-    Value2 = int(input("Enter second number : "))
+    Data = []
 
-    Ret = Arithmetic.Add(Value1, Value2)
+    No = int(input("Enter the no. of elements : "))
+
+    for i in range(No):
+        Value = int(input("Enter Element : "))
+        Data.append(Value)
+
+    Ret = MarvellousNum.SumPrime(Data)
     print("Addition is : ",Ret)
-    
-    Ret = Arithmetic.Sub(Value1, Value2)
-    print("Substraction is : ",Ret)
-
-    Ret = Arithmetic.Mult(Value1, Value2)
-    print("Multiplication is : ",Ret)
-
-    Ret = Arithmetic.Div(Value1, Value2)
-    print("Division is : ",Ret)
 
 if __name__ == "__main__":
     main()
