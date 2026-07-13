@@ -25,9 +25,7 @@ class program40
         System.out.println("Enter number : ");
         iValue = sobj.nextInt();
 
-        CheckDivisible(iValue); 
-        // error: non-static method CheckDivisible(int) cannot be referenced from a static context
-        // CheckDivisible method is non-static but it call from static it causes error 
+        CheckDivisible(iValue);                                             // error
     }
     
 }
