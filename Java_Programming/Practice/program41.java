@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 class program41
 {
-    //we can call this method from main class so we have to declare this method as static beacause from static non static not called 
     static void CheckDivisible(int iNo)
     {
         if((iNo % 3 == 0)&&(iNo % 5 == 0))
