@@ -1,11 +1,9 @@
 //Accept the number from user and check wheather it is divisible by 3 and 5
-//Type 2(final)
 
 import java.util.Scanner;
 
 class program43
 {
-    //changing datatype void -> boolean
     public static boolean CheckDivisible(int iNo)
     {
         if((iNo % 3 == 0)&&(iNo % 5 == 0))
