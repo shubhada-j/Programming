@@ -1,5 +1,4 @@
 //Accept the number from user and check wheather it is divisible by 3 and 5
-//Type 2
 
 import java.util.Scanner;
 
