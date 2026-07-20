@@ -10,8 +10,7 @@ def Copy(First,Second):
     print("Second File gets opened")
     
     fobj2.write(Data)
-    print("New File created amd Data Copied" \
-    "")
+    print("Data Copied")
 
     fobj2.close()
     fobj1.close()
