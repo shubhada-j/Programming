@@ -1,9 +1,7 @@
 //Accept the number from user and check wheather it is divisible by 3 and 5
-//Type 3
 
 import java.util.Scanner;
 
-//seperate class for business logic
 class NumberX
 {
     public static boolean CheckDivisible(int iNo)
