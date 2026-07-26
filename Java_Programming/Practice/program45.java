@@ -1,5 +1,4 @@
 //Accept the number from user and check wheather it is divisible by 3 and 5
-//Type 3(final)
 
 import java.util.Scanner;
 
@@ -42,6 +41,5 @@ class program45
         {
             System.out.println("Number is not divisible by 3 & 5");
         }
-    }
-    
+    } 
 }
