@@ -1,12 +1,10 @@
-///////////////////////////////////////////////////////////////
 #include<stdio.h>
 
-//user define macro
 #define AGE_INVALID -1
 
 int CalculateTicketPrice(int iAge)
 {
-    //Input Filter
+
     if(iAge < 0)
     {
         return AGE_INVALID;
