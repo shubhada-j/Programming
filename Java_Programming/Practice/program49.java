@@ -1,5 +1,5 @@
 //accept the number from user and print the summation of factors of number
-//final
+
 import java.util.Scanner;
 
 class NumberX
