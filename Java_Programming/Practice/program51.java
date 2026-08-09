@@ -1,5 +1,5 @@
 //accept the number from user and print number is perfect or not
-//final
+
 import java.util.Scanner;
 
 class NumberX
