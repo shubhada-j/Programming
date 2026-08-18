@@ -14,9 +14,9 @@ def main():
 
     df = pd.DataFrame(Data) 
 
-    max_sciencemarks = df['Science'].max()
+    result = df[df['Science'] > 85]
 
-    print("Maximum Marks of Science : ",max_sciencemarks)
-
+    print(result[['Name','Science']])
+    
 if __name__ == "__main__":
     main()
