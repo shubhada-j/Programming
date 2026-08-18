@@ -8,19 +8,20 @@ def main():
     Subject = ["Math","Science","English"]
     Marks = [85,92,75]
 
-    plt.bar(
+    plt.plot(
         Subject,
         Marks,
-        width = 0.5,
-        edgecolor = "black",
-        linewidth = 1,
-        alpha = 0.5,
+        marker = "o",
+        linestyle = "--",
+        linewidth = 2,
+        markersize = 7,
         label = "Marks"
     )
 
     plt.title("Amit_Marks")
     plt.xlabel("Subjects")
     plt.ylabel("Marks")
+    plt.grid(True)
     plt.legend()
     plt.show()
 
