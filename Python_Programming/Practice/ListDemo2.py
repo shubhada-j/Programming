@@ -1,5 +1,5 @@
 def main():
-    Data = (10,20,30,40)
+    Data = [10,20,30,40]
 
     print(type(Data))
     print(len(Data))
@@ -9,8 +9,10 @@ def main():
     print(Data[2])
     print(Data[3])
 
+    Data[1] = 21
+    print(Data[1])
+
 if __name__ == "__main__":
     main()
 
-
-#tuple is constant/immutable(cannot changed)
+#list is mutable(can be change)
