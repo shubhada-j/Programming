@@ -1,0 +1,26 @@
+//Generic Programming topic start
+//but code specific programming
+
+#include<iostream>
+using namespace std;
+
+float Addition(float No1, float No2)
+{
+    float Ans;
+    Ans = No1 + No2;
+    return Ans;
+}
+
+int main()                          //main generic naste kadhich    //main function return value always 1
+{
+    float Value1 = 10.5f;
+    float Value2 = 11.2f;
+    float Ret = 0.0f;
+
+    Ret = Addition(Value1,Value2);
+    cout<<"Addition is : "<<Ret<<"\n";
+    
+    return 0;
+}
+
+//Addition is : 21.7
