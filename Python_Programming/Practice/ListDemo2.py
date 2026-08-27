@@ -14,5 +14,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-#list is mutable(can be change)
