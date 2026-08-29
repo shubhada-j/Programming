@@ -1,3 +1,4 @@
+# Datatype
 
 Data1 = {11,21,51,101}
 print(type(Data1))
