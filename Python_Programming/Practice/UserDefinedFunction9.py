@@ -15,3 +15,5 @@ def main():
 if __name__ == "__main__":
     main()
 
+# function inside the function so we have to call it from the main function of which we declare in it
+
