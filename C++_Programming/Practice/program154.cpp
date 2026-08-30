@@ -13,7 +13,7 @@ int main()
 {
     ArrayX aobj;
 
-    cout<<sizeof(aobj)<<endl;       //12 (due to use pragma pack)
+    cout<<sizeof(aobj)<<endl;       
 
     return 0;
 }
