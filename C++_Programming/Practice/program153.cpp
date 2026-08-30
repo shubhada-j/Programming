@@ -12,7 +12,7 @@ int main()
 {
     ArrayX aobj;
 
-    cout<<sizeof(aobj)<<endl;   //16 (due to padding)
+    cout<<sizeof(aobj)<<endl;   
 
     return 0;
 }
