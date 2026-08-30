@@ -8,7 +8,7 @@ class ArrayX
         int *Arr;
         int iSize;
 
-    ArrayX(int X)           //parametrized constructor
+    ArrayX(int X)          
     {
 
     }
@@ -16,7 +16,7 @@ class ArrayX
 
 int main()
 {
-    ArrayX aobj();            //ERROR -> due to not passing parameter but using parametrized constructor
+    ArrayX aobj();            //ERROR 
 
     cout<<sizeof(aobj)<<endl;      
 
