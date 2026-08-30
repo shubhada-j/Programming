@@ -3,7 +3,6 @@ using namespace std;
 
 class ArrayX
 {
-    // Access specifier of summation is Private -> due to this it is not accessible to main function
     int Summation(int Arr[],int iSize)
     {
         int iCnt = 0;
@@ -24,13 +23,9 @@ int main()
     int iLength = 0;
     int iCnt = 0;
     int iRet = 0;
-    ArrayX aobj;            //objext creation static without new keyword(new use in java for object creation)
-
+    ArrayX aobj;            
     cout<<"Enter the number of elements : \n";
     cin>>iLength;
-
-    //C    : Brr = (int *)malloc(sizeof(int) * iLength);
-    //Java : Brr = new int[iLength];
 
     Brr = new int[iLength];
 
