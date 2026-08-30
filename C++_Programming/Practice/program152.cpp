@@ -24,8 +24,7 @@ int main()
     int iLength = 0;
     int iCnt = 0;
     int iRet = 0;
-    ArrayX aobj;            //objext creation static without new keyword(new use in java for object creation)
-
+    ArrayX aobj;            
     cout<<"Enter the number of elements : \n";
     cin>>iLength;
 
