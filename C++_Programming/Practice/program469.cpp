@@ -1,6 +1,3 @@
-//Generic Programming topic start
-//but code specific programming
-
 #include<iostream>
 using namespace std;
 
@@ -12,7 +9,7 @@ int Addition(int No1, int No2)
 
 }
 
-int main()                          //main generic naste kadhich
+int main()                          
 {
     int Value1 = 10;
     int Value2 = 11;
@@ -23,5 +20,3 @@ int main()                          //main generic naste kadhich
     
     return 0;
 }
-
-//Addition is : 21
