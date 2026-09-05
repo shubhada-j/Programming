@@ -1,10 +1,7 @@
 def Area(Radius, PI):
     Ans =  PI * Radius * Radius
     return Ans
-
-
-
-
+    
 def main():
     Ret = Area(10.5,3.14)
     print("Area of Circle is : ",Ret)
@@ -15,5 +12,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-#Positional Parameter -> we can change anything 
