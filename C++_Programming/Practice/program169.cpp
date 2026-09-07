@@ -9,7 +9,6 @@ class ArrayX
         int iSize;
 
     public:
-        //Parametrised constructor with default argument(value) -> work like parametrised and deafault
         ArrayX(int X =5)           
         {
             iSize = X;                  
