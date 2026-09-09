@@ -6,7 +6,7 @@ class DigitX
     {
         int iDigit = 0;
        
-        for(; iNo != 0; iNo = iNo / 10)       //for(;;)
+        for(; iNo != 0; iNo = iNo / 10)    
         {
             iDigit = iNo % 10;
 
