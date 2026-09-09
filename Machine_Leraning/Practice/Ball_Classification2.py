@@ -1,5 +1,3 @@
-#Ball Case Study - encoding
-
 #Rough -> 1
 #Smooth -> 0
 
@@ -8,11 +6,10 @@
 
 def main():
     print("Ball Classification case study")
+    
+    Features = [[35,1],[47,1],[90,0],[48,1],[90,0],[35,1],[92,0],[35,1],[35,1],[35,1],[96,0],[43,1],[110,0],[35,1],[95,0]]          
 
-    #Encoding(Feature Encoding)
-    Features = [[35,1],[47,1],[90,0],[48,1],[90,0],[35,1],[92,0],[35,1],[35,1],[35,1],[96,0],[43,1],[110,0],[35,1],[95,0]]              #list
-
-    Lables = [1,1,2,1,2,1,2,1,1,1,2,1,2,1,2]                             #list
+    Lables = [1,1,2,1,2,1,2,1,1,1,2,1,2,1,2]                          
 
     print("Features are : ",Features)
 
