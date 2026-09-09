@@ -1,5 +1,3 @@
-#Ball Case Study
-
 def main():
     print("Ball Classification case study")
 
