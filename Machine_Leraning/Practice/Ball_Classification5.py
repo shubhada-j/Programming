@@ -1,5 +1,3 @@
-#Ball Case Study 
-
 from sklearn import tree
 
 def main():
