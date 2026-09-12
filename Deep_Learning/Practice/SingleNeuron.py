@@ -24,16 +24,9 @@ z = np.dot(input,weights) + bias
 print("z : ",z)
 
 # Step 5 : Acitivation Function (ReLU)
-def ReLU(x):                                #userdefined function
-    return max(0,x)                         #max->in-built function
+def ReLU(x):                                
+    return max(0,x)                         
 
 # Step 6 : Final Output
 Y = ReLU(z)
 print("Y : ",Y)
-
-#output:
-#X :  [2. 3. 4.]
-#w :  [0.5 0.3 0.2]
-#b :  1.0
-#z :  3.7
-#Y :  3.7
