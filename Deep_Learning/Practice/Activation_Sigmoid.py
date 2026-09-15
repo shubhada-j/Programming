@@ -1,10 +1,8 @@
-# Activation Function -> Sigmoid
-
 import numpy as np
 import math
 
 def sigmoid(z):
-    return 1 / (1 + math.exp(-z))           #math.exp generates the value of e
+    return 1 / (1 + math.exp(-z))           
 
 def Marvellous_Neuron_Forward(inputs,weights,bias):
     print("Inputs are (X) : ",inputs)
@@ -17,8 +15,6 @@ def Marvellous_Neuron_Forward(inputs,weights,bias):
         z = z + (inputs[i] * weights[i])
 
     z = z + bias
-   
-    # z = sum(w * x for w, x in zip (weights,inputs))      # to combine two columns zip method is use
 
     print("Weighted sum : ",z)
 
