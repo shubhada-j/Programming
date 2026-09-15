@@ -1,5 +1,3 @@
-# Activation Function -> ReLU
-
 import numpy as np
 
 def ReLU(z):
@@ -9,20 +7,12 @@ def Marvellous_Neuron_Forward(inputs,weights,bias):
     print("Inputs are (X) : ",inputs)
     print("Weights are (W) : ",weights)
     print("bias are (b) : ",bias)
-
     z = 0
-
     for i in range(len(inputs)):
         z = z + (inputs[i] * weights[i])
-
     z = z + bias
-   
-    # z = sum(w * x for w, x in zip (weights,inputs))      # to combine two columns zip method is use
-
     print("Weighted sum : ",z)
-
     y = ReLU(z)
-
     return y
 
 def main():
