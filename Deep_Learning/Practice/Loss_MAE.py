@@ -1,5 +1,3 @@
-# How MAE work  (used for regression problem)
-
 def Marvellous_MAE(Y_True, Y_Pred):
     n = len(Y_Pred)
     total_error = 0
