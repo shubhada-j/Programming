@@ -181,7 +181,6 @@ print("Model gets loaded successfully")
 #-------------------------------------------------------------
 print("11. Test unseen data")
 
-#1:1 mapping to read
 new_student = pd.DataFrame([[70,75,80,85,1]], columns=['Aptitude','Coding','Communication','Academics','Internship'])
 
 new_student_scaled = loaded_scalar.transform(new_student)
