@@ -7,7 +7,7 @@ img = img.resize((28,28))
 
 pixels = np.array(img)
 
-print("Image Size : ",pixels.shape)         #shape : kiti by kiti
+print("Image Size : ",pixels.shape)         
 
 print("Pixel Values : ")
 print(pixels)
@@ -18,5 +18,3 @@ print(pixels)
 # 50    Dark Gray
 # 120   Medium Gray
 # 200   Light Gray
-
-#C:\Users\mdman\Desktop\Python\Deep_Learning>python 10CNN_Gray_Display.py > output.txt
