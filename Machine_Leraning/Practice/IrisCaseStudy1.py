@@ -1,5 +1,3 @@
-# Iris Case Study - #dataset is load from library 
-
 from sklearn.datasets import load_iris
 
 def main():
@@ -10,7 +8,6 @@ def main():
     Dataset = load_iris()
 
     print(Dataset)
-
 
 if __name__ == "__main__":
     main()
