@@ -1,5 +1,3 @@
-#dataset is load from library
-
 from sklearn.datasets import load_iris
 
 def main():
