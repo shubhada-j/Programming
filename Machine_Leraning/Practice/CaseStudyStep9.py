@@ -1,5 +1,3 @@
-# dataset load from csv
-
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -22,9 +20,9 @@ print(Border)
 print("Step 1 : Load the Dataset")
 print(Border)
 
-DataPath = "iris.csv"                   #relative path  # DataPath Variable banvun tyamadhe path store kela
+DataPath = "iris.csv"                  
 
-df = pd.read_csv(DataPath)                        #df-> DataFrame, pd-> pandas, read -_csv-> read the csv
+df = pd.read_csv(DataPath)                       
 
 print("dataset loaded Succesfully")
 print("Initial Enteries from dataset are :")
@@ -38,12 +36,12 @@ print(Border)
 print("Step 2 : Data Analysis (EDA)")
 print(Border)
 
-print("Shape of Dataset : ",df.shape)           # shape -> property
+print("Shape of Dataset : ",df.shape)           
 
 print("Column names : ",list(df.columns))
 
 print("Missing Values per column :")
-print(df.isnull().sum())                        #conanical function call 
+print(df.isnull().sum())                       
 
 print("Class Distribution (species count)")
 print(df["species"].value_counts())
@@ -69,8 +67,8 @@ feature_cols = [
     "petal width (cm)",
 ]
 
-X = df[feature_cols]            # 150 by 4 
-Y = df["species"]               # 150 by 0        
+X = df[feature_cols]            
+Y = df["species"]              
 
 print("X Shape : ", X.shape)
 print("Y Shape : ", Y.shape)
@@ -111,15 +109,14 @@ X_train, X_test, Y_train, Y_test = train_test_split(X,Y,test_size=0.5,random_sta
 
 print("Dataset Spliting acitvity done")
 
-print("X : ",X.shape)               # (150, 4)
-print("Y : ",Y.shape)               # (150, 0)
+print("X : ",X.shape)             
+print("Y : ",Y.shape)              
 
-print("X_train : ",X_train.shape)   # (75, 4)
-print("X_test : ",X_test.shape)     # (75, 4)
+print("X_train : ",X_train.shape)   
+print("X_test : ",X_test.shape)     
 
-print("Y_train : ",Y_train.shape)   # (75, )
-print("Y_test : ",Y_test.shape)     # (75, )
-
+print("Y_train : ",Y_train.shape)   
+print("Y_test : ",Y_test.shape)     
 
 #######################################################
 # Step 6 : Build the model
