@@ -1,8 +1,7 @@
 import pandas as pd
 
-
 def main():
-    sobj = pd.Series([11,21,51,101])        #brackets are imp
+    sobj = pd.Series([11,21,51,101])    
     print(sobj)
 
 if __name__ == "__main__":
