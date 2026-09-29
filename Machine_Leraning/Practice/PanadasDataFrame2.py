@@ -1,5 +1,3 @@
-# Dataframe -> 2D Array
-
 import pandas as pd
  
 def main():
@@ -12,8 +10,6 @@ def main():
     dobj = pd.DataFrame(Data)
 
     print(dobj)
-
-    #print(dobj[0])          #Not allowed
 
     print(dobj["Age"])
 
