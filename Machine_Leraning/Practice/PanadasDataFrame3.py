@@ -1,5 +1,3 @@
-# Dataframe -> 2D Array
-
 import pandas as pd
  
 def main():
@@ -11,7 +9,7 @@ def main():
 
     dobj = pd.DataFrame(Data)
 
-    print(dobj[["Name","Age"]])         #[[]] required
+    print(dobj[["Name","Age"]])      
 
 if __name__ == "__main__":
     main()
