@@ -1,0 +1,20 @@
+sentences = [
+    "food was good",
+    "food was bad",
+    "food was not good"
+]
+
+labels = [1,0,0]
+
+for sentence , label in zip(sentences,labels):
+    sentiment = "Positive" if label == 1 else "Negative"
+    
+    print("-------------------------------------")
+    print("Sentence : ",sentence)
+    print("-------------------------------------")
+    print("Label : ",label)
+    print("-------------------------------------")
+    print("Meaning : ",sentiment)
+    print("-------------------------------------")
+
+# here batch size is 3 
