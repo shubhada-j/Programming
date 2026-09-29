@@ -16,5 +16,3 @@ for sentence , label in zip(sentences,labels):
     print("-------------------------------------")
     print("Meaning : ",sentiment)
     print("-------------------------------------")
-
-# here batch size is 3 
