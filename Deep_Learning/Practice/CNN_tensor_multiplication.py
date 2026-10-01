@@ -13,5 +13,3 @@ matrix2 = tf.constant([
 result = tf.matmul(matrix1,matrix2)
 
 print(result)
-
-# matmul -> actual matrix multiplication
