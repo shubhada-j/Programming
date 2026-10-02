@@ -3,7 +3,7 @@
 import matplotlib.pyplot as plt
 
 def main():
-    X = [1,2,3,4,5]             #imagine its X-axis
+    X = [1,2,3,4,5]            
     Y = [10,25,18,35,30]
 
     plt.plot(
@@ -24,9 +24,9 @@ def main():
 
     plt.grid(True)
 
-    plt.legend()            #use to display all names
+    plt.legend()            
 
-    plt.show()              # for diagram
+    plt.show()            
 
 if __name__ == "__main__":
     main()
