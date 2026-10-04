@@ -1,4 +1,4 @@
-#Scattered Plot -> mostly use
+#Scattered Plot
 
 import matplotlib.pyplot as plt
 
@@ -20,7 +20,7 @@ def main():
     plt.title("Marvellous Scattered Plot")
     plt.xlabel("Study_hours")
     plt.ylabel("Obtained_Marks")
-    plt.grid()                          #use in this type to read easily
+    plt.grid()                        
     plt.legend()
     plt.show()
 
