@@ -22,6 +22,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-# Accuracy is :  93.33333333333333
