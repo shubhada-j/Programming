@@ -14,7 +14,8 @@ def main():
     # Dependent
     Y = np.array(["Red","Red","Blue","Blue"])
 
-    new_point = np.array([3,3]) # to test
+    # to test
+    new_point = np.array([3,3]) 
 
     print("Independent Variables are : ")
     print(X)
