@@ -50,7 +50,7 @@ def MarvellousKNNClassifier():
 
     k = 3
 
-    nearest = sorted_data[:k]    # :k -> first 3 
+    nearest = sorted_data[:k]    
 
     print(Border)
     print("Nearest 3 members are : ")
