@@ -72,16 +72,6 @@ def MarvellousClassifier(DataPath):
     print(Border)
 
 
-
-
-
-    
-    
-
-    
-
-
-
 def main():
     MarvellousClassifier("WinePredictor.csv")
 
