@@ -1,10 +1,8 @@
-import numpy as np              # use for calculations
+import numpy as np              
 import pandas as pd
 import matplotlib.pyplot as plt
 
 def MarvellousPredictor():
-    #Load the Data
-
     X = [1,2,3,4,5]
     Y = [3,4,2,4,5]
 
