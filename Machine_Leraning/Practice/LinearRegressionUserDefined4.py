@@ -1,9 +1,8 @@
-import numpy as np              # use for calculations
+import numpy as np             
 import pandas as pd
 import matplotlib.pyplot as plt
 
 def MarvellousPredictor():
-    #Load the Data
 
     X = [1,2,3,4,5]
     Y = [3,4,2,4,5]
@@ -25,17 +24,15 @@ def MarvellousPredictor():
     print("Mean_X is : ",mean_x)
     print("Mean_Y is : ",mean_y)
 
-    n = len(X)      # 5
+    n = len(X)     
 
     numerator = 0
     denominator = 0
 
-    # Calculate slope that is 'm'
-    # m = Sum(x-xbar) * (y - ybar) / Sum(x - xbar) ** 2
 
     for i in range(n):
         numerator = numerator + ((X[i] - mean_x) * (Y[i] - mean_y))
-        denominator = denominator + ((X[i]-mean_x)**2)                  # **2 -> raised to 2
+        denominator = denominator + ((X[i]-mean_x)**2)                  
 
     m = numerator / denominator
 
