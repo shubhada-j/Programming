@@ -42,7 +42,7 @@ def Marvellousregression(Datapath):
     print("Step 4 : Statistical Summary")
     print(Border)
 
-    print(df.describe())        # statisctical report
+    print(df.describe())   
 
 def main():
     Marvellousregression("Advertising.csv")
