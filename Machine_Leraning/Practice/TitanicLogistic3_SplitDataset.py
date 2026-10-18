@@ -92,7 +92,6 @@ def SplitData(df):
 
     return X_train, X_test, Y_train, Y_test
 
-
 #--------------------------------------------------------------
 #   Function name : Main
 #   Description :   Entry Point Function
