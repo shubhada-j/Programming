@@ -157,7 +157,6 @@ def main():
     model = TrainModel(X_train,Y_train)
 
     # Step 5:
-
     EvaluateModel(model, X_test,Y_test)
 
 if __name__ =="__main__":
