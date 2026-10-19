@@ -1,5 +1,3 @@
-//Doubly Circular Linkedlist
-
 class node
 {
     public int data;
