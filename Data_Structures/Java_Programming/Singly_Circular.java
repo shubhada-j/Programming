@@ -1,5 +1,3 @@
-//Singly Circular Linkedlist in java
- 
 class node
 {
     public int data;
