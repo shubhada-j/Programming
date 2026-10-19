@@ -1,5 +1,3 @@
-//Doubly Linear Linkedlist
-
 class node
 {
     public int data;
