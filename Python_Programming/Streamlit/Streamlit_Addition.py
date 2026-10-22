@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("Marvellous Infosystems")
          
-st.header("Addition of Number")
+st.header("Addition of Two Numbers")
 
 no1 = st.number_input("Enter first number",value = 0,step = 1)
 no2 = st.number_input("Enter second number",value = 0,step = 1)
