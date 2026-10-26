@@ -1,24 +1,17 @@
 function CheckEven(No)
 {
-    if (No % 2 == 0)
-    {
-        return true
-    }
-    else
-    {
-        return false
-    }
+    return (No % 2 == 0)            
 }
 
 function main()
 {
-   let value = 11
+   let value = 12
 
    let bRet = false
 
    bRet = CheckEven(value)
 
-   if(bRet == true)
+   if(bRet)                         
    {
         console.log(`${value} is even number`)
    }
@@ -30,3 +23,4 @@ function main()
 }
 
 main()
+
