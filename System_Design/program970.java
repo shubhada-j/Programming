@@ -1,5 +1,3 @@
-//System Design start
-
 class Demo
 {
     public int i,j;
@@ -11,20 +9,13 @@ class Demo
         this.i = 0;
         this.j = 0;
     }
-
 }
 
 class program970
 {
     public static void main(String A[])
     {
-        Demo obj1 = new Demo();     //object
-        Demo obj2 = new Demo();     //object
+        Demo obj1 = new Demo();     
+        Demo obj2 = new Demo();     
     }
 }
-
-/*
-C:\Users\mdman\Desktop\LB\System_Design>java program970.java
-Object Created
-Object Created
-*/
