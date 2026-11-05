@@ -1,0 +1,39 @@
+//Design Patteren - Singleton
+
+class ParkingLot
+{
+    private static ParkingLot instance;         //self referncing structure
+
+    private ParkingLot()
+    {
+        System.out.println("ParkingLot Object gets created");
+    }
+
+    //            return value  method name
+    public static ParkingLot getInstance()
+    {
+        if(instance == null)
+        {
+            instance = new ParkingLot();
+        }
+        return instance;
+    }
+}
+
+class program974
+{
+    public static void main(String A[])
+    {
+       ParkingLot pobj1 = ParkingLot.getInstance();
+       ParkingLot pobj2 = ParkingLot.getInstance();
+       
+       System.out.println(pobj1 == pobj2);
+    }
+}
+
+/*
+C:\Users\mdman\Desktop\LB\System_Design>java program974.java
+ParkingLot Object gets created
+true
+
+*/
