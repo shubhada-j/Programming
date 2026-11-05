@@ -16,7 +16,7 @@ class program972
 {
     public static void main(String A[])
     {
-        Demo obj1; //Reference
-        Demo obj2; //Reference
+        Demo obj1; 
+        Demo obj2; 
     }
 }
