@@ -2,14 +2,13 @@
 
 class ParkingLot
 {
-    private static ParkingLot instance;         //self referncing structure
+    private static ParkingLot instance;         
 
     private ParkingLot()
     {
         System.out.println("ParkingLot Object gets created");
     }
 
-    //            return value  method name
     public static ParkingLot getInstance()
     {
         if(instance == null)
@@ -30,10 +29,3 @@ class program974
        System.out.println(pobj1 == pobj2);
     }
 }
-
-/*
-C:\Users\mdman\Desktop\LB\System_Design>java program974.java
-ParkingLot Object gets created
-true
-
-*/
