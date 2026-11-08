@@ -1,4 +1,3 @@
-//enum
 
 enum VehicleType
 {
@@ -18,7 +17,3 @@ class program976
         System.out.println(VehicleType.CAR);
     }
 }
-
-/*
-
-*/
