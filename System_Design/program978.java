@@ -1,4 +1,3 @@
-//Design Patterem starts - factory
 
 enum VehicleType
 {
@@ -7,7 +6,6 @@ enum VehicleType
    TRUCK
 }
 
-//abstract class
 abstract class Vehicle
 {
     private String number;
@@ -25,7 +23,6 @@ abstract class Vehicle
     public abstract void display();
 }
 
-//concreet classes
 class Bike extends Vehicle
 {
     public Bike(String number)
@@ -80,7 +77,6 @@ class VehicleFactory
             case TRUCK:
                 return new Truck(number);
 
-            //Default missing ERROR
         }
     }
 }
@@ -98,12 +94,3 @@ class program978
         v3.display();
     }
 }
-
-/*
-C:\Users\mdman\Desktop\LB\System_Design>java program978.java
-program978.java:83: error: missing return statement
-    }
-    ^
-1 error
-error: compilation failed
-*/
