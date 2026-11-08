@@ -18,9 +18,3 @@ class program975
         System.out.println(VehicleType.CAR);
     }
 }
-
-/*
-C:\Users\mdman\Desktop\LB\System_Design>java program975.java
-CAR
-CAR
-*/
