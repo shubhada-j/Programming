@@ -5,7 +5,6 @@ enum VehicleType
    TRUCK
 }
 
-//abstract class
 abstract class Vehicle
 {
     private String number;
@@ -23,7 +22,6 @@ abstract class Vehicle
     public abstract void display();
 }
 
-//concreet classes
 class Bike extends Vehicle
 {
     public Bike(String number)
@@ -74,9 +72,3 @@ class program977
         tobj.display();
     }
 }
-
-/*
-C:\Users\mdman\Desktop\LB\System_Design>java program977.java
-Car : MH12VL9080
-Truck : MH12WZ9080
-*/
