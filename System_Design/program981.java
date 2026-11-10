@@ -2,14 +2,13 @@
 
 class ParkingLot
 {
-    private static ParkingLot instance;         //self referncing structure
+    private static ParkingLot instance;         
 
     private ParkingLot()
     {
         System.out.println("ParkingLot Object gets created");
     }
-
-    //            return value  method name
+    
     public static ParkingLot getInstance()
     {
         if(instance == null)
@@ -32,8 +31,3 @@ class program981
 
     }
 }
-
-/*
-Constructor private so object is not able to create
-
-*/
