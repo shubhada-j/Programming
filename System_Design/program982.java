@@ -1,4 +1,4 @@
-//Design Patterem starts - factory (Same as 980)
+//Design Patterem starts - factory 
 
 enum VehicleType
 {
@@ -7,7 +7,6 @@ enum VehicleType
    TRUCK
 }
 
-//abstract class
 abstract class Vehicle
 {
     private String number;
@@ -25,7 +24,6 @@ abstract class Vehicle
     public abstract void display();
 }
 
-//concreet classes
 class Bike extends Vehicle
 {
     public Bike(String number)
@@ -100,9 +98,3 @@ class program980
     }
 }
 
-/*
-C:\Users\mdman\Desktop\LB\System_Design>java program980.java
-Bike : MH12VL9080
-Car : MH12WZ9080
-Truck : MH12ML9080
-*/
