@@ -1,4 +1,4 @@
-//Design Patterem starts - Builder 
+//Design Patterem - Builder 
 
 class ParkingTicket
 {
