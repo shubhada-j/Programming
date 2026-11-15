@@ -26,8 +26,3 @@ class program989
         System.out.println(ret);
     }
 }
-
-/*
-C:\Users\mdman\Desktop\LB\System_Design>java program989.java
-11
-*/
