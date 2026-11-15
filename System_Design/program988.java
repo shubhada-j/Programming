@@ -24,8 +24,3 @@ class program988
         System.out.println(ret);
     }
 }
-
-/*
-C:\Users\mdman\Desktop\LB\System_Design>java program988.java
-11
-*/
