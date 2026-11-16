@@ -1,5 +1,4 @@
-//(987 copy)
-//Design Patterem starts - Builder 
+//Design Patterem - Builder 
 
 class ParkingTicket
 {
@@ -97,12 +96,3 @@ class program991
        pobj.display();
     }
 }
-
-/*
-C:\Users\mdman\Desktop\LB\System_Design>java program987.java
-Ticket Number : 11
-Vehicle Number : MH12VL9080
-Floor Number : 4
-Spot Number : 89
-Entry Time : 10:30 AM
-*/
