@@ -1,5 +1,3 @@
-//990 copy
-
 class Demo
 {
     public int i,j;
@@ -36,10 +34,3 @@ class program992
         .display();
     }
 }
-
-/*
-
-C:\Users\mdman\Desktop\LB\System_Design>java program992.java
-i : 11
-j : 21
-*/
