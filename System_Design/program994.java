@@ -42,7 +42,3 @@ class program994
         ParkingFloor floor = new ParkingFloor(5);
     }
 }
-
-/*
-interface madhli prtek gosht by default public aste
-*/
