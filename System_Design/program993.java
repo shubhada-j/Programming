@@ -1,5 +1,3 @@
-//anonimus object creation
-
 class Demo
 {
     public int i,j;
@@ -28,16 +26,9 @@ class program993
 {
     public static void main(String A[])
     {
-        new Demo()                          //anonimus object
+        new Demo()                         
         .setI(11)
         .setJ(21)
         .display();
     }
 }
-
-/*
-
-C:\Users\mdman\Desktop\LB\System_Design>java program993.java
-i : 11
-j : 21
-*/
