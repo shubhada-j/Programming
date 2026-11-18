@@ -83,20 +83,5 @@ class program995
         System.out.println("--------------------------------");
 
         floor.VehicleExited();
-
-
     }
 }
-
-/*
-interface madhli prtek gosht by default public aste
-
-C:\Users\mdman\Desktop\LB\System_Design>java program995.java
-Display Board : 4
-Mobile Application : 4
---------------------------------
-Display Board : 5
-Mobile Application : 5
-
-
-*/
