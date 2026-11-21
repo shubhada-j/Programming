@@ -1,6 +1,3 @@
-//Generic Programming topic start
-//but code specific programming
-
 #include<iostream>
 using namespace std;
 
@@ -12,7 +9,7 @@ double Addition(double No1, double No2)
 
 }
 
-int main()                          //main generic naste kadhich    //main function return value always 1
+int main()                          
 {
     double Value1 = 10.5, Value2 = 11.2, Ret = 0.0;
 
@@ -21,5 +18,3 @@ int main()                          //main generic naste kadhich    //main funct
     
     return 0;
 }
-
-//Addition is : 21.7
