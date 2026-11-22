@@ -1,6 +1,3 @@
-//Generic Programming 
-//3functions in specific programming
-
 #include<iostream>
 using namespace std;
 
@@ -23,7 +20,7 @@ int AdditionI(int No1, int No2)
     Ans = No1 + No2;
     return Ans;
 }
-int main()                          //main generic naste kadhich    //main function return value always 1
+int main()                          
 {
     cout<<AdditionI(11,10)<<"\n";
     cout<<AdditionF(11.5f,10.2f)<<"\n";
@@ -31,9 +28,3 @@ int main()                          //main generic naste kadhich    //main funct
 
     return 0;
 }
-
-/*
-21
-21.7
-21.7
-*/
