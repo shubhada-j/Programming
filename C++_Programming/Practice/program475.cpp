@@ -1,5 +1,3 @@
-//Generic Programming of 3 functions
-
 #include<iostream>
 using namespace std;
 
@@ -21,7 +19,3 @@ int main()
 
     return 0;
 }
-
-/*
-21.2
-*/
