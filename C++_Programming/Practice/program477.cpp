@@ -1,5 +1,3 @@
-//ternary operator
-
 #include<iostream>
 using namespace std;
 
@@ -19,7 +17,3 @@ int main()
     return 0;
 }
 
-/*
-ternary operator ? :
-21.2
-*/
