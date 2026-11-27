@@ -1,5 +1,3 @@
-//ternary oprator
-
 #include<iostream>
 using namespace std;
 
@@ -27,9 +25,3 @@ int main()
 
     return 0;
 }
-
-/*
-21.2
-21.2
-21
-*/
